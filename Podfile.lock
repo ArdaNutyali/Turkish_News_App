@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.13.1):
+    - SDWebImage/Core (= 5.13.1)
+  - SDWebImage/Core (5.13.1)
+  - SwipeableTabBarController (3.4.2)
+
+DEPENDENCIES:
+  - SDWebImage (~> 5.0)
+  - SwipeableTabBarController
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SwipeableTabBarController
+
+SPEC CHECKSUMS:
+  SDWebImage: fb26a455eeda4c7a55e4dcb6172dbb258af7a4ca
+  SwipeableTabBarController: 9a218bdee9426d1bfe36d7962f852024bb08d61b
+
+PODFILE CHECKSUM: 7df86c94a614b962c2c8a7586d0791253d3b1cff
+
+COCOAPODS: 1.11.3

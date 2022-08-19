@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CE21480FCDB2C2E750EB40 /* Pods_TurkishNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1967DC6922BF88EB46A236C4 /* Pods_TurkishNewsApp.framework */; };
+		8E8EB95928AD878200705080 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB95828AD878200705080 /* Model.swift */; };
+		8E8EB95C28AD888F00705080 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB95B28AD888F00705080 /* Service.swift */; };
+		8E8EB95F28AD8E3A00705080 /* AllNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB95E28AD8E3A00705080 /* AllNewsCell.swift */; };
+		8E8EB96128AD8E4D00705080 /* SportNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB96028AD8E4D00705080 /* SportNewsCell.swift */; };
+		8E8EB96328AD8E6600705080 /* ScienceNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB96228AD8E6600705080 /* ScienceNewsCell.swift */; };
+		8E8EB96528AD8E7400705080 /* TechNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB96428AD8E7400705080 /* TechNewsCell.swift */; };
+		8E8EB96928AD911C00705080 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EB96828AD911C00705080 /* Constants.swift */; };
+		8EE5F0D828AD7F4A00D2EBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5F0D728AD7F4A00D2EBA2 /* AppDelegate.swift */; };
+		8EE5F0DA28AD7F4A00D2EBA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5F0D928AD7F4A00D2EBA2 /* SceneDelegate.swift */; };
+		8EE5F0DC28AD7F4A00D2EBA2 /* AllNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5F0DB28AD7F4A00D2EBA2 /* AllNewsController.swift */; };
+		8EE5F0DF28AD7F4A00D2EBA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5F0DD28AD7F4A00D2EBA2 /* Main.storyboard */; };
+		8EE5F0E128AD7F4E00D2EBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5F0E028AD7F4E00D2EBA2 /* Assets.xcassets */; };
+		8EE5F0E428AD7F4E00D2EBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5F0E228AD7F4E00D2EBA2 /* LaunchScreen.storyboard */; };
+		8EFDF63F28AD81A400EE25EC /* SportNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDF63E28AD81A400EE25EC /* SportNewsViewController.swift */; };
+		8EFDF64128AD81E400EE25EC /* ScienceNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDF64028AD81E400EE25EC /* ScienceNewsViewController.swift */; };
+		8EFDF64328AD821D00EE25EC /* TechNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDF64228AD821D00EE25EC /* TechNewsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1967DC6922BF88EB46A236C4 /* Pods_TurkishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A2982790640556AF82089 /* Pods-TurkishNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishNewsApp.debug.xcconfig"; path = "Target Support Files/Pods-TurkishNewsApp/Pods-TurkishNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E8EB95828AD878200705080 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8E8EB95B28AD888F00705080 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8E8EB95E28AD8E3A00705080 /* AllNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNewsCell.swift; sourceTree = "<group>"; };
+		8E8EB96028AD8E4D00705080 /* SportNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsCell.swift; sourceTree = "<group>"; };
+		8E8EB96228AD8E6600705080 /* ScienceNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNewsCell.swift; sourceTree = "<group>"; };
+		8E8EB96428AD8E7400705080 /* TechNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechNewsCell.swift; sourceTree = "<group>"; };
+		8E8EB96828AD911C00705080 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8EE5F0D428AD7F4A00D2EBA2 /* TurkishNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkishNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE5F0D728AD7F4A00D2EBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE5F0D928AD7F4A00D2EBA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EE5F0DB28AD7F4A00D2EBA2 /* AllNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNewsController.swift; sourceTree = "<group>"; };
+		8EE5F0DE28AD7F4A00D2EBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE5F0E028AD7F4E00D2EBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE5F0E328AD7F4E00D2EBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE5F0E528AD7F4E00D2EBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFDF63E28AD81A400EE25EC /* SportNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsViewController.swift; sourceTree = "<group>"; };
+		8EFDF64028AD81E400EE25EC /* ScienceNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceNewsViewController.swift; sourceTree = "<group>"; };
+		8EFDF64228AD821D00EE25EC /* TechNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechNewsViewController.swift; sourceTree = "<group>"; };
+		BFFAD6FBE03A13A31FE03694 /* Pods-TurkishNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishNewsApp.release.xcconfig"; path = "Target Support Files/Pods-TurkishNewsApp/Pods-TurkishNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE5F0D128AD7F4A00D2EBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CE21480FCDB2C2E750EB40 /* Pods_TurkishNewsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3D233B7BE903BD98E4B846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				214A2982790640556AF82089 /* Pods-TurkishNewsApp.debug.xcconfig */,
+				BFFAD6FBE03A13A31FE03694 /* Pods-TurkishNewsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E8EB95528AD873100705080 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E8EB95828AD878200705080 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E8EB95628AD873A00705080 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5F0DB28AD7F4A00D2EBA2 /* AllNewsController.swift */,
+				8EFDF63E28AD81A400EE25EC /* SportNewsViewController.swift */,
+				8EFDF64028AD81E400EE25EC /* ScienceNewsViewController.swift */,
+				8EFDF64228AD821D00EE25EC /* TechNewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E8EB95728AD875600705080 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5F0D728AD7F4A00D2EBA2 /* AppDelegate.swift */,
+				8EE5F0D928AD7F4A00D2EBA2 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8E8EB95A28AD881C00705080 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				8E8EB95B28AD888F00705080 /* Service.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		8E8EB95D28AD8B8E00705080 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E8EB95E28AD8E3A00705080 /* AllNewsCell.swift */,
+				8E8EB96028AD8E4D00705080 /* SportNewsCell.swift */,
+				8E8EB96228AD8E6600705080 /* ScienceNewsCell.swift */,
+				8E8EB96428AD8E7400705080 /* TechNewsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E8EB96628AD8E8200705080 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5F0DD28AD7F4A00D2EBA2 /* Main.storyboard */,
+				8EE5F0E228AD7F4E00D2EBA2 /* LaunchScreen.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8E8EB96728AD910200705080 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8E8EB96828AD911C00705080 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8EE5F0CB28AD7F4A00D2EBA2 = {
+			isa = PBXGroup;
+			children = (
+				8EE5F0D628AD7F4A00D2EBA2 /* TurkishNewsApp */,
+				8EE5F0D528AD7F4A00D2EBA2 /* Products */,
+				5F3D233B7BE903BD98E4B846 /* Pods */,
+				F507DE6B5E655C900F0DC21B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE5F0D528AD7F4A00D2EBA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5F0D428AD7F4A00D2EBA2 /* TurkishNewsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE5F0D628AD7F4A00D2EBA2 /* TurkishNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E8EB96728AD910200705080 /* Constants */,
+				8E8EB96628AD8E8200705080 /* Screens */,
+				8E8EB95D28AD8B8E00705080 /* Cells */,
+				8E8EB95728AD875600705080 /* Delegates */,
+				8E8EB95628AD873A00705080 /* Controllers */,
+				8E8EB95528AD873100705080 /* Models */,
+				8E8EB95A28AD881C00705080 /* WebService */,
+				8EE5F0E028AD7F4E00D2EBA2 /* Assets.xcassets */,
+				8EE5F0E528AD7F4E00D2EBA2 /* Info.plist */,
+			);
+			path = TurkishNewsApp;
+			sourceTree = "<group>";
+		};
+		F507DE6B5E655C900F0DC21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1967DC6922BF88EB46A236C4 /* Pods_TurkishNewsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE5F0D328AD7F4A00D2EBA2 /* TurkishNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE5F0E828AD7F4E00D2EBA2 /* Build configuration list for PBXNativeTarget "TurkishNewsApp" */;
+			buildPhases = (
+				5E5C865CBB95C4556F26B11D /* [CP] Check Pods Manifest.lock */,
+				8EE5F0D028AD7F4A00D2EBA2 /* Sources */,
+				8EE5F0D128AD7F4A00D2EBA2 /* Frameworks */,
+				8EE5F0D228AD7F4A00D2EBA2 /* Resources */,
+				8EA627991757CFB771782EA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkishNewsApp;
+			productName = TurkishNewsApp;
+			productReference = 8EE5F0D428AD7F4A00D2EBA2 /* TurkishNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE5F0CC28AD7F4A00D2EBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8EE5F0D328AD7F4A00D2EBA2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EE5F0CF28AD7F4A00D2EBA2 /* Build configuration list for PBXProject "TurkishNewsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE5F0CB28AD7F4A00D2EBA2;
+			productRefGroup = 8EE5F0D528AD7F4A00D2EBA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE5F0D328AD7F4A00D2EBA2 /* TurkishNewsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE5F0D228AD7F4A00D2EBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5F0E428AD7F4E00D2EBA2 /* LaunchScreen.storyboard in Resources */,
+				8EE5F0E128AD7F4E00D2EBA2 /* Assets.xcassets in Resources */,
+				8EE5F0DF28AD7F4A00D2EBA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E5C865CBB95C4556F26B11D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishNewsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA627991757CFB771782EA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishNewsApp/Pods-TurkishNewsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishNewsApp/Pods-TurkishNewsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurkishNewsApp/Pods-TurkishNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE5F0D028AD7F4A00D2EBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFDF63F28AD81A400EE25EC /* SportNewsViewController.swift in Sources */,
+				8EFDF64328AD821D00EE25EC /* TechNewsViewController.swift in Sources */,
+				8EE5F0DC28AD7F4A00D2EBA2 /* AllNewsController.swift in Sources */,
+				8E8EB96328AD8E6600705080 /* ScienceNewsCell.swift in Sources */,
+				8E8EB96128AD8E4D00705080 /* SportNewsCell.swift in Sources */,
+				8E8EB96528AD8E7400705080 /* TechNewsCell.swift in Sources */,
+				8EFDF64128AD81E400EE25EC /* ScienceNewsViewController.swift in Sources */,
+				8EE5F0D828AD7F4A00D2EBA2 /* AppDelegate.swift in Sources */,
+				8E8EB95C28AD888F00705080 /* Service.swift in Sources */,
+				8EE5F0DA28AD7F4A00D2EBA2 /* SceneDelegate.swift in Sources */,
+				8E8EB96928AD911C00705080 /* Constants.swift in Sources */,
+				8E8EB95F28AD8E3A00705080 /* AllNewsCell.swift in Sources */,
+				8E8EB95928AD878200705080 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EE5F0DD28AD7F4A00D2EBA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE5F0DE28AD7F4A00D2EBA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EE5F0E228AD7F4E00D2EBA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE5F0E328AD7F4E00D2EBA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE5F0E628AD7F4E00D2EBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE5F0E728AD7F4E00D2EBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE5F0E928AD7F4E00D2EBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214A2982790640556AF82089 /* Pods-TurkishNewsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95RKVU6XK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkishNewsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelplus.TurkishNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE5F0EA28AD7F4E00D2EBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFAD6FBE03A13A31FE03694 /* Pods-TurkishNewsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95RKVU6XK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkishNewsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelplus.TurkishNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE5F0CF28AD7F4A00D2EBA2 /* Build configuration list for PBXProject "TurkishNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5F0E628AD7F4E00D2EBA2 /* Debug */,
+				8EE5F0E728AD7F4E00D2EBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE5F0E828AD7F4E00D2EBA2 /* Build configuration list for PBXNativeTarget "TurkishNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5F0E928AD7F4E00D2EBA2 /* Debug */,
+				8EE5F0EA28AD7F4E00D2EBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE5F0CC28AD7F4A00D2EBA2 /* Project object */;
+}
